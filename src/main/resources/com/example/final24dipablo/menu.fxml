@@ -1,16 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.geometry.Insets?>
-<?import javafx.scene.control.Label?>
-<?import javafx.scene.layout.VBox?>
-
 <?import javafx.scene.control.Button?>
-<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
-      fx:controller="com.example.final24dipablo.AjedrezControlador">
-    <padding>
-        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
-    </padding>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
 
-    <Label fx:id="welcomeText"/>
-    <Button text="Hello!" onAction="#onHelloButtonClick"/>
-</VBox>
+<AnchorPane fx:id="fondo" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.final24dipablo.ControladorMenu">
+   <children>
+      <VBox alignment="TOP_CENTER" prefHeight="286.0" prefWidth="600.0" style="-fx-background-color: lightgray;">
+         <children>
+            <Label alignment="CENTER" prefHeight="77.0" prefWidth="600.0" text="Ajedrez">
+               <font>
+                  <Font name="Old English Text MT" size="51.0" />
+               </font>
+            </Label>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="10.0">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#cargarPantallaAjedrez" prefHeight="31.0" prefWidth="60.0" text="Jugar">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="248.0" layoutY="45.0" mnemonicParsing="false" onAction="#salir" prefHeight="31.0" prefWidth="60.0" text="Salir">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Button>
+               </children>
+            </HBox>
+            <Button mnemonicParsing="false" onAction="#cargarRanking" prefHeight="31.0" prefWidth="76.0" text="Ranking">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+         </children>
+      </VBox>
+      <HBox layoutY="284.0" prefHeight="116.0" prefWidth="600.0">
+         <children>
+            <Label alignment="CENTER" prefHeight="118.0" prefWidth="276.0" text="Pablo Sal de Justo">
+               <font>
+                  <Font size="31.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" prefHeight="116.0" prefWidth="56.0" text="|">
+               <font>
+                  <Font size="73.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="10.0" layoutY="10.0" prefHeight="118.0" prefWidth="276.0" text="2º DAM">
+               <font>
+                  <Font size="31.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>
