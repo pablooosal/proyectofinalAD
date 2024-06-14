@@ -12,6 +12,8 @@ import java.io.IOException;
 public class ControladorRanking {
     @FXML
     private AnchorPane fondo;
+
+    //Método que nos devuelve al menú principal
     @FXML
     void cargarMenu(ActionEvent event) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(AjedrezApp.class.getResource("menu.fxml"));

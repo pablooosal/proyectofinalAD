@@ -18,16 +18,19 @@ public class ControladorMenu{
     @FXML
     private AnchorPane fondo;
 
+    //Método que carga la pantalla del tablero
     @FXML
     void cargarPantallaAjedrez(ActionEvent event) throws IOException {
         cargarPantalla("ajedrez.fxml");
     }
 
+    //Método carga la pantalla del ranking
     @FXML
     void cargarRanking(ActionEvent event) throws IOException {
         cargarPantalla("ranking.fxml");
     }
 
+    //Método con el que cargamos las distintas pantallas
     public void cargarPantalla(String pantalla) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(AjedrezApp.class.getResource(pantalla));
         Scene scene = new Scene(fxmlLoader.load());
@@ -36,6 +39,7 @@ public class ControladorMenu{
         stage.show();
     }
 
+    //Método para salir del programa
     @FXML
     void salir(ActionEvent event) {
         Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();

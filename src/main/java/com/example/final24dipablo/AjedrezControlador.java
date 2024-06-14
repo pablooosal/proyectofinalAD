@@ -120,6 +120,7 @@ public class AjedrezControlador implements Initializable {
     @FXML
     private Label l2;
 
+    //Método que nos devuelve al menú principal
     @FXML
     void menuPrincipal(ActionEvent event) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(AjedrezApp.class.getResource("menu.fxml"));
@@ -129,6 +130,7 @@ public class AjedrezControlador implements Initializable {
         stage.show();
     }
 
+    //Método que prepara las piezas del tablero
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
         sorteoInicio();
@@ -326,6 +328,7 @@ public class AjedrezControlador implements Initializable {
         peon16.ponerPieza();
     }
 
+    //Método que sortea quién juega con blancas y quién con negras
     public void sorteoInicio(){
         if (Math.random() < 0.5){
             l1.setText("Ordenador");
