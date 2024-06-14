@@ -24,8 +24,8 @@ public class ControladorMenu{
     }
 
     @FXML
-    void cargarRanking(ActionEvent event) {
-
+    void cargarRanking(ActionEvent event) throws IOException {
+        cargarPantalla("ranking.fxml");
     }
 
     public void cargarPantalla(String pantalla) throws IOException {
