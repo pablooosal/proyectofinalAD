@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef72c04a-acbf-46c8-ba63-d77c61b8d76e" name="Changes" comment="3. Ajedrez listo.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/final24dipablo/ControladorRanking.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/final24dipablo/ranking.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/final24dipablo/ControladorMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/final24dipablo/ControladorMenu.java" afterDir="false" />
-    </list>
+    <list default="true" id="ef72c04a-acbf-46c8-ba63-d77c61b8d76e" name="Changes" comment="5. Comentarios listos." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,7 +36,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/pablo/Desktop/FINAL-24-DI-PABLO/src/main/resources/com/example/pieza"
+    "last_opened_file_path": "C:/Users/pablo/Desktop/FINAL-24-DI-PABLO/src/main/resources/com/example/pieza",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -78,7 +74,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1718347300676</updated>
-      <workItem from="1718347302158" duration="11630000" />
+      <workItem from="1718347302158" duration="12161000" />
     </task>
     <task id="LOCAL-00001" summary="1. Creación de clases.">
       <created>1718350312843</created>
@@ -101,7 +97,28 @@
       <option name="project" value="LOCAL" />
       <updated>1718361352508</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="4. Ranking listo.">
+      <created>1718362272068</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1718362272068</updated>
+    </task>
+    <task id="LOCAL-00005" summary="5. Comentarios listos.">
+      <created>1718362509173</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1718362509173</updated>
+    </task>
+    <task id="LOCAL-00006" summary="5. Comentarios listos.">
+      <created>1718362726128</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1718362726128</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,6 +139,8 @@
     <MESSAGE value="1. Creación de clases." />
     <MESSAGE value="2. Menú listo." />
     <MESSAGE value="3. Ajedrez listo." />
-    <option name="LAST_COMMIT_MESSAGE" value="3. Ajedrez listo." />
+    <MESSAGE value="4. Ranking listo." />
+    <MESSAGE value="5. Comentarios listos." />
+    <option name="LAST_COMMIT_MESSAGE" value="5. Comentarios listos." />
   </component>
 </project>
