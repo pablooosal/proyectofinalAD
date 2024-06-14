@@ -1,8 +1,11 @@
 package com.example.pieza;
 
+import javafx.event.EventHandler;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Node;
+import javafx.scene.control.Alert;
 import javafx.scene.image.Image;
+import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.AnchorPane;
 
 import java.io.IOException;
@@ -25,6 +28,17 @@ public class Pieza extends AnchorPane {
             this.setNombrePieza("PEON");
             this.setColor("blanca");
             this.ponerPieza();
+            controlador.getPieza().addEventHandler(MouseEvent.MOUSE_CLICKED, new EventHandler<MouseEvent>() {
+                @Override
+                public void handle(MouseEvent mouseEvent) {
+                    Alert ventanaNombrePieza= new Alert(Alert.AlertType.INFORMATION);
+                    ventanaNombrePieza.setTitle("Ajedrez");
+                    ventanaNombrePieza.setHeaderText("Pieza.");
+                    ventanaNombrePieza.setContentText(nombrePieza + " " + color);
+                    ventanaNombrePieza.showAndWait();
+                }
+            });
+
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
